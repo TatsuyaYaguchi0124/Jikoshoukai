@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    margin:  0;
+    position:  relative;
+    height: 130px;
+    text-align: left;
+    background-color: white;
+    padding-left: 30px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 95px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+	font-size:35px;
+	border-bottom:#BFBFBF dotted 1px;
+}
+
+h3:first-letter{
+	font-size:50px;
+	color: yellow;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+}
+
+.locaLNavigation{
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    color: #000000;
+    font-family: "fantasy";
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+  height: 1100px;
+  padding: 80px 30px;
+  background-color: #D9E5FF;
+  color: #333;
+  font-family: "Century";
+  text-align:center;
+  margin-top: 18px;
+}
+
+.heading2 {
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    border-bottom: double 4px #999;
+}
+
+.about-text {
+    width: 1000px;
+    line-height: 2.5;
+    text-align:center
+}
+
+.about-text p {
+    display: inline-block;
+    text-align: left;
+}
+
+footer{
+    /*footerの装飾*/
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: arial;
+    height: 30px;
+    margin: 50px;
+}
